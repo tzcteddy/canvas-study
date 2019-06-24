@@ -1,0 +1,23 @@
+require.config({
+  baseUrl:'../js/',
+  paths:{
+    "getContext":'common/base/getContext',
+    "clock":'common/apply_clock',
+    "mouseToCanvas":"common/apply_mouseToCanvas",
+    "rubberBandScale":"common/apply_rubberBandScale",
+    "rubberBandScale2":"common/apply_rubberBandScale2",
+    "gradient":"common/apply_gradient",
+    "pattern":"common/apply_pattern",
+    "shadow":"common/apply_shadow",
+    "path":"common/apply_path",
+    "coordinates":"common/apply_coordinates",
+    "rubberBandLine":"common/apply_rubberBandLine",
+    "dashboard":"common/apply_dashboard",
+    "quadratic":"common/apply_quadratic",
+    "dragPolygon":"common/apply_dragPolygon",
+    "bezier":"common/apply_bezier",
+    "globalCompositeOperation":"common/apply_globalCompositeOperation",
+    "clip":"common/apply_clip",
+    "imageScale":"common/apply_imageScale",
+  }
+});
